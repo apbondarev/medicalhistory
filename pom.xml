@@ -9,8 +9,11 @@
 
   <name>MedicalHistory</name>
   <url>http://maven.apache.org</url>
-
-  <properties>
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://localhost:8080/hudson/job/MedicalHistory/</url>
+    </ciManagement>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -18,7 +21,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
