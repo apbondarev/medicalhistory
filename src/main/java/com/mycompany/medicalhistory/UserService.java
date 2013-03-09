@@ -16,5 +16,5 @@ public interface UserService {
      * email is incorrect, name already exists, name is empty, 
      * password less 8 characters.
      */
-    void create(User user) throws AppException;
+    void create(User user);
 }

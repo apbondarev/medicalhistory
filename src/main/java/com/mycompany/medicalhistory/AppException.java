@@ -11,13 +11,6 @@ package com.mycompany.medicalhistory;
 public class AppException extends RuntimeException {
 
     /**
-     * Creates a new instance of
-     * <code>AppException</code> without detail message.
-     */
-    public AppException() {
-    }
-
-    /**
      * Constructs an instance of
      * <code>AppException</code> with the specified detail message.
      *
